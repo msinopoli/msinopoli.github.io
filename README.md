@@ -1,2 +1,2 @@
-# msinopoli.github.io
-Mr. Sinopoli's Website
+#Mr. Sinopoli's Website
+This page last edited on 12/19/2022.
