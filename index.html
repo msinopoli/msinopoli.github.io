@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="resources/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Poor+Story&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <table>
+        <tbody>
+            <tr>
+                <th>Universal</th>
+                <th>*</th>
+                <th>Selects all elements of any type</th>
+            </tr>
+            <tr>
+                <th>Type</th>
+                <th>p, h1, h2</th>
+                <th>Selects all elements of speceifc type</th>
+            </tr>
+            <tr>
+                <th>Class</th>
+                <th>.title, .example</th>
+                <th>Selects all elements with that specific class</th>
+            </tr>
+            <tr>
+                <th>ID</th>
+                <th>#title, #example</th>
+                <th>Selects all elements with that specific ID</th>
+            </tr>
+            <tr>
+                <th>Attribute</th>
+                <th>img[src*='example']</th>
+                <th>Selects all the elements with that specific attribute</th>
+            </tr>
+        </tbody>
+        <thead>
+            <tr>
+                <td>Type</td>
+                <td>Examples</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+    </table>
+    <h3>*Note the order of this list matters. Each of selectors will overide the next one. For example if you have all h3 headings set to the color blue but you have a specific h3 heading with the id special set to the color orange, then that h3 heading will become orange while the rest remain blue</h3>
+</body>
+</html>
